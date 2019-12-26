@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="addon">
+    <id>net.olback.budgie-headset-control-applet</id>
+    <pkgname>budgie-headset-control-applet</pkgname>
+    <translation type="gettext">budgie-headset-control-applet</translation>
+    <metadata_license>AGPL-3.0</metadata_license>
+    <project_license>AGPL-3.0</project_license>
+    <name>Budgie Headset Control Applet</name>
+    <summary>Check your battery level, enable or disable lightning or change sidetone</summary>
+    <description>
+        <p>
+            Control your headset lightning, sidetone and check your battery status in one simple applet.
+        </p>
+    </description>
+    <!-- <screenshots>
+        <screenshot type="default">
+            <image>https://raw.githubusercontent.com/cybre/budgie-screenshot-applet/master/data/images/screenshot1.png</image>
+        </screenshot>
+    </screenshots> -->
+    <url type="homepage">https://github.com/olback/budgie-headset-control-applet</url>
+    <url type="bugtracker">https://github.com/olback/budgie-headset-control-applet/issues</url>
+    <!-- <url type="translate">https://www.transifex.com/cybres-budgie-applets/budgie-screenshot-applet</url> -->
+    <url type="donation">https://paypal.me/olback</url>
+    <developer_name>Edwin Svensson</developer_name>
+    <updatecontact>budgie_headset_control_applet_AT_olback.net</updatecontact>
+</component>

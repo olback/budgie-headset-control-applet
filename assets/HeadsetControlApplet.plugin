@@ -1,0 +1,8 @@
+[Plugin]
+Module=headsetcontrolapplet.so
+Name=Headset Control
+Description=Headset Control
+Authors=Edwin Svensson
+Copyright=Copyright © 2019-2020 Edwin Svensson
+Website=https://olback.net
+Icon=audio-headphones-symbolic
