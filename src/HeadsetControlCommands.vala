@@ -1,3 +1,5 @@
+namespace BudgieHeadsetControl {
+
 namespace Commands {
 
     private const string HC_PATH = "/usr/local/bin/headsetcontrol";
@@ -54,3 +56,5 @@ namespace Commands {
 
 
 }
+
+} // eon

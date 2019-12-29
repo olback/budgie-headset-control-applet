@@ -11,9 +11,12 @@ version_data.set('VERSION', meson.project_version())
 configure_file(input: 'version.h.in', output: 'version.h', configuration: version_data)
 
 bhca_sources = [
-    'BHCNotify.vala',
-    'Result.vala',
-    'Commands.vala',
+    'HeadsetControlNotify.vala',
+    'HeadsetControlResult.vala',
+    'HeadsetControlCommands.vala',
+    'HeadsetControlSettingsUI.vala',
+    'HeadsetControlSettings.vala',
+    'HeadsetControlPlugin.vala',
     'HeadsetControlApplet.vala',
     res
 ]

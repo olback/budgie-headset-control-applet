@@ -1,3 +1,5 @@
+namespace BudgieHeadsetControl {
+
 public class Result {
 
     private int status;
@@ -17,3 +19,5 @@ public class Result {
     }
 
 }
+
+} // eon
