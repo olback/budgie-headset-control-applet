@@ -4,8 +4,10 @@
 
 if [ $? -ne 0 ]; then
 
-    echo "Install sucessful but command headsetcontrol was not found"
+    echo "-----------------------------------------------"
+    echo ""
     echo "Make sure /usr/local/bin/headsetcontrol exists!"
+    echo ""
+    echo "-----------------------------------------------"
 
 fi
-

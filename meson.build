@@ -28,3 +28,6 @@ LIB_INSTALL_DIR = join_paths(get_option('prefix'), get_option('libdir'), 'budgie
 
 subdir('assets')
 subdir('src')
+
+# Compile schemas
+meson.add_install_script('check.sh')
