@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
     <gresource prefix="/net/olback/budgie-headset-control-applet">
-        <file preprocess="xml-stripblanks">applet.glade</file>
+        <file alias="glade-ui" preprocess="xml-stripblanks">applet2.glade</file>
+        <file alias="battery-25">img/battery-25.png</file>
+        <file alias="battery-50">img/battery-50.png</file>
+        <file alias="battery-75">img/battery-75.png</file>
+        <file alias="battery-100">img/battery-100.png</file>
+        <file alias="battery-charging">img/battery-charging.png</file>
     </gresource>
 </gresources>
