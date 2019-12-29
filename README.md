@@ -12,16 +12,18 @@ See [docs](docs/) for more screenshots!
 ```terminal
 git clone https://github.com/olback/budgie-headset-control-applet.git
 cd budgie-headset-control-applet
-make configure
-make build
-sudo make install
+mkdir build && cd build
+meson --prefix /usr ..
+ninja -j$(nproc)
+sudo ninja install
 ```
 
 Don't forget to logout or restart.
 
 ### Uninstall
 ```terminal
-sudo make uninstall
+cd build
+sudo ninja uninstall
 ```
 
 ### Development
