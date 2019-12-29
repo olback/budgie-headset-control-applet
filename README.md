@@ -2,7 +2,7 @@
 
 Please see [Sapd/HeadsetControl](https://github.com/Sapd/HeadsetControl) for supported headsets.
 
-![example](docs/on_battery.png)
+![example](docs/on_battery.png)  
 See [docs](docs/) for more screenshots!
 
 ### Installation
