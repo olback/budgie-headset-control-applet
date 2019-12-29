@@ -1,0 +1,6 @@
+#ifndef _BHCA_VERSION
+#define _BHCA_VERSION
+
+#define BHCA_VERSION "@VERSION@"
+
+#endif

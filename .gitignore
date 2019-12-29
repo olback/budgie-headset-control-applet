@@ -1,3 +1,4 @@
 build/
 out/
 .ninja_*
+src/Version.vala

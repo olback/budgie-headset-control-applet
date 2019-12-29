@@ -1,7 +1,7 @@
 project(
     'budgie-headset-control-applet',
     ['vala', 'c'],
-    version: '0.1.0',
+    version: '0.2.0',
     license: 'AGPL-3.0'
 )
 
@@ -28,3 +28,6 @@ LIB_INSTALL_DIR = join_paths(get_option('prefix'), get_option('libdir'), 'budgie
 
 subdir('assets')
 subdir('src')
+
+# Compile schemas
+meson.add_install_script('check.sh')
